@@ -10,7 +10,6 @@ namespace tpmodul7_kelompok_2
 {
     internal class DataMahasiswa_1302210004
     {
-
         public void ReadJSON()
         {
             string jsonText = File.ReadAllText(@"\Users\ASUS\source\repos\tpmodul7_kelompok_2\tp7_1_1302210004.json");
