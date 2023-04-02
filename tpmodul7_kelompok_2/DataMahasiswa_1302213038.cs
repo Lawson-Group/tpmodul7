@@ -18,10 +18,10 @@ namespace tpmodul7_kelompok_2
 
             if (mhs != null)
             {
-                string namaDepan = mhs.name.depan;
-                string namaBelakang = mhs.name.belakang;
-                int nim = mhs.nim;
-                string fakultas = mhs.fakultas;
+                string namaDepan = mhs.Name.Depan;
+                string namaBelakang = mhs.Name.Belakang;
+                int nim = mhs.Nim;
+                string fakultas = mhs.Fakultas;
 
                 Console.WriteLine("Nama " + namaDepan + " " + namaBelakang 
                     + " dengan NIM " + nim + " dari fakultas " + fakultas);
@@ -31,32 +31,32 @@ namespace tpmodul7_kelompok_2
 
     public class Mahasiswa
     {
-        public namaLengkap name { get; set; }
-        public int nim { get; set; }
-        public string fakultas { get; set; }
+        public NamaLengkap Name { get; set; }
+        public int Nim { get; set; }
+        public string Fakultas { get; set; }
         public Mahasiswa() { }
-        public Mahasiswa(namaLengkap nama, int nim, string fakultas)
+        public Mahasiswa(NamaLengkap nama, int nim, string fakultas)
         {
             if (nama != null && fakultas != null)
             {
-                this.name = nama;
-                this.nim = nim;
-                this.fakultas = fakultas;
+                this.Name = nama;
+                this.Nim = nim;
+                this.Fakultas = fakultas;
             }
         }
     }
 
-    public class namaLengkap
+    public class NamaLengkap
     {
-        public string depan { get; set; }
-        public string belakang { get; set; }
-        public namaLengkap() { }
-        public namaLengkap(string depan, string belakang)
+        public string Depan { get; set; }
+        public string Belakang { get; set; }
+        public NamaLengkap() { }
+        public NamaLengkap(string depan, string belakang)
         {
             if (depan != null && belakang != null)
             {
-                this.depan = depan;
-                this.belakang = belakang;
+                this.Depan = depan;
+                this.Belakang = belakang;
             }
         }
     }
