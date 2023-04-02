@@ -11,3 +11,9 @@ data.ReadJSON();
 
 KuliahMahasiswa1302213051 kuliah = new KuliahMahasiswa1302213051();
 kuliah.ReadJSON();
+
+DataMahasiswa_1302213038 mhs = new DataMahasiswa_1302213038();
+mhs.ReadJSON();
+
+KuliahMahasiswa_1302213038 uni = new KuliahMahasiswa_1302213038();
+uni.ReadJSON();
