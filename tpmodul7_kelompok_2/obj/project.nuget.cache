@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8tl6buOkZHnT/FgiZeq1zQlsAXOuX3uNpbUoBelGUjbDM2hEIcZ28WSb37kIlR75FpSJ3oGa5DqaLKePMprlnw==",
+  "dgSpecHash": "Nkf9HhIXotDB6dgje3uzslfVgyZNf7VZZy9rgdqlM6ORt98t21s5WAMjPP40MTWxfV/nzqVGrJdq2uGOcPlZHQ==",
   "success": true,
   "projectFilePath": "D:\\Documents\\Semester 4\\Software Construction\\Tugas Pendahuluan\\Modul 7\\tpmodul7\\tpmodul7_kelompok_2\\tpmodul7_kelompok_2.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ACER\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
