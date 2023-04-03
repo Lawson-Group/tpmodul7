@@ -1,3 +1,5 @@
+﻿using tpmodul7_kelompok_2;
+
 DataMahasiswa_1302210004 dt = new DataMahasiswa_1302210004();
 dt.ReadJSON();
 
