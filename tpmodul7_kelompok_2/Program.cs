@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 using tpmodul7_kelompok_2;
+=======
+﻿using tpmodul7_kelompok_2;
+>>>>>>> parent of d1a61bc (muthia)
 
 DataMahasiswa_1302210004 dt = new DataMahasiswa_1302210004();
 dt.ReadJSON();
