@@ -1,10 +1,4 @@
-﻿using tpmodul7_kelompok_2;
-
-DataMahasiswa_1302210004 dt = new DataMahasiswa_1302210004();
-dt.ReadJSON();
-
-KuliahMahasiswa_1302210004 km = new KuliahMahasiswa_1302210004();
-km.ReadJSON();
+using tpmodul7_kelompok_2;
 
 KuliahMahasiswa_1302213030_Novita km = new KuliahMahasiswa_1302213030_Novita();
 km.ReadJSON();
